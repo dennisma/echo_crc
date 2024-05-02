@@ -11,7 +11,7 @@ int checksum(const std::string& sentence) {
 }
 
 piComm::piComm(SerialUART& serial): ser(serial)
-{
+{// do nothing
 }
 
 void piComm::init()
